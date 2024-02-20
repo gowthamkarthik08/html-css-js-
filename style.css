@@ -1,0 +1,173 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,600&family=Tinos:wght@400;700&display=swap');
+
+ /* Global variables */
+ :root {
+     --dark-primary: #1b1f24;
+     --primary: #12bdff;
+ }
+
+ body {
+
+     font-family: 'Tinos', serif;
+
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ header {
+     background-color: #1b1f24;
+     padding: 20px;
+     color: #ffffff;
+     display: flex;
+     justify-content: space-evenly;
+
+ }
+
+ header ul {
+     display: flex;
+     list-style: none;
+ }
+
+ header ul li {
+     margin-right: 20px;
+ }
+
+ header ul li a {
+     color: #fff;
+     /* padding: 20px; */
+     text-decoration: none;
+ }
+
+ header ul li a:hover {
+     color: var(--primary);
+ }
+
+ header button {
+     padding: 10px 20px;
+     font-weight: bold;
+     background-color: var(--dark-primary);
+     border-color: #12bdff;
+     border-radius: 3px;
+     color: var(--primary);
+ }
+
+ header button {
+     cursor: pointer;
+ }
+
+ header p {
+     font-weight: bold;
+     letter-spacing: 2px;
+
+ }
+
+ p a {
+     text-decoration: none;
+     color: #fff;
+ }
+
+ header button:hover {
+     background-color: #12bdff;
+     color: #fff;
+ }
+
+ /* section:Hero Homepage */
+ section.hero-section {
+     background-color: var(--dark-primary);
+     color: #fff;
+     display: flex;
+     align-items: center;
+     padding: 20px 0px 0px 240px;
+
+
+ }
+
+ .hero-section__title {
+     font-size: 48px;
+     font-weight: bold;
+ }
+
+ .hero-section__desc {
+     color: rgb(157, 165, 165);
+     text-align: justify;
+
+ }
+
+
+
+ .social-icons li {
+     margin: 20px 0;
+
+ }
+
+ ul.social-icons {
+     list-style: none;
+     display: flex;
+
+ }
+
+ .social-icons li a {
+     text-decoration: none;
+     color: #fff;
+     margin-right: 15px;
+ }
+
+ .social-icons li a>i.fa-facebook:hover {
+     color: #1877F2;
+ }
+
+ .social-icons li a>i.fa-linkedin:hover {
+
+     color: #0077b5;
+ }
+
+ .social-icons li a>i.fa-instagram:hover {
+
+     color: #d62976;
+ }
+
+ .fa-twitter:hover {
+
+     color: #1DA1F2;
+ }
+
+
+
+ .main_button {
+
+     padding: 10px 20px;
+     font-weight: bold;
+     background-color: var(--dark-primary);
+     border-color: #12bdff;
+     border-radius: 3px;
+     color: var(--primary);
+     cursor: pointer;
+
+ }
+
+ .hero-buttons button {
+     margin-right: 10px;
+ }
+
+ .main_button:hover {
+     background-color: #12bdff;
+     color: #fff;
+
+ }
+ .about_section img{
+    border-radius: 50%;
+    width: 350px;
+ }
+ .about_me{
+    float: right;
+    margin-right:63%;
+    
+ }
+ div ol{
+     list-style: none;
+ }
